@@ -144,3 +144,13 @@ int main()
 	puts(postfix);                    
   return 0;
 }
+
+
+OUTPUT:
+First Run:
+Enter Infix expression : A+(B*C-(D/E^F)*G)*H
+Postfix Expression: ABC*DEF^/G*-H*+
+
+Second Run:
+Enter Infix expression : (3^2*5)/(3*2-3)+5
+Postfix Expression: 32^5*32*3-/5+
